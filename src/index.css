@@ -1,3 +1,55 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.text-base {
+    color: #98ca3f;
+}
+
+#agregar-imagen {
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    color: #f3f3f3;
+    font-weight: bold;
+    background-color: #dc5d18;
+    border-radius: 0.5rem;
+}
+
+#borrar-imagen {
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem;
+    color: #dc5d18;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    border: solid 1px #dc5d18;
+    border-radius: 0.5rem;
+}
+
+#zorritos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.container-zorros {
+    width: 30%;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d5d8;
+}
